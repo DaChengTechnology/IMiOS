@@ -1,0 +1,44 @@
+//
+//  MySetVIew.m
+//  boxin
+//
+//  Created by Sea on 2019/8/5.
+//  Copyright © 2019 guduzhonglao. All rights reserved.
+//
+
+#import "MySetVIew.h"
+
+@implementation MySetVIew
+
+/*
+// Only override drawRect: if you perform custom drawing.
+// An empty implementation adversely affects performance during animation.
+- (void)drawRect:(CGRect)rect {
+    // Drawing code
+}
+ */
++ (instancetype)viewFromXib
+{
+    return [[NSBundle mainBundle] loadNibNamed:NSStringFromClass(self) owner:nil options:nil].lastObject;
+}
+-(instancetype)initWithFrame:(CGRect)frame
+{
+    self = [super initWithFrame:frame];
+    if (self) {
+        [self awakeFromNib];
+    }
+    return self;
+}
+//返回按钮点击事件
+- (IBAction)BackClickButton:(id)sender {
+    if ([_delegate respondsToSelector:@selector(dismissVIew:) ]) {
+        [_delegate dismissVIew:self];
+    }
+}
+
+- (void)awakeFromNib {
+    [super awakeFromNib];
+    _IconImage.layer.masksToBounds = YES;
+    _IconImage.layer.cornerRadius = 30;
+}
+@end

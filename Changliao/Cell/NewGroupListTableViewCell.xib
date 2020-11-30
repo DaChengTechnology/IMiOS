@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="74" id="KGk-i7-Jjw" customClass="NewGroupListTableViewCell" customModule="Chaangliao" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EtV-HL-5uT">
+                        <rect key="frame" x="74" y="21" width="37.5" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mW0-T4-wBB">
+                        <rect key="frame" x="66" y="59" width="270" height="1"/>
+                        <color key="backgroundColor" red="0.85098039219999999" green="0.85098039219999999" blue="0.85098039219999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="JnD-cz-3Gf"/>
+                        </constraints>
+                    </view>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="工作小矢量图" translatesAutoresizingMaskIntoConstraints="NO" id="lMW-oq-O1C">
+                        <rect key="frame" x="290" y="22.5" width="20" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="WoC-th-s3i"/>
+                            <constraint firstAttribute="width" constant="20" id="mMR-JO-x2g"/>
+                        </constraints>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jt5-TP-oSG">
+                        <rect key="frame" x="16" y="5" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="5Cp-kg-6Hz"/>
+                            <constraint firstAttribute="height" constant="50" id="dJB-Yw-ZPq"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="mW0-T4-wBB" secondAttribute="trailing" constant="-16" id="45x-fm-0DZ"/>
+                    <constraint firstAttribute="trailing" secondItem="lMW-oq-O1C" secondAttribute="trailing" constant="10" id="4JI-Ca-erU"/>
+                    <constraint firstItem="jt5-TP-oSG" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="8m8-Eg-kQ1"/>
+                    <constraint firstItem="jt5-TP-oSG" firstAttribute="trailing" secondItem="mW0-T4-wBB" secondAttribute="leading" id="CT0-4v-LbD"/>
+                    <constraint firstItem="lMW-oq-O1C" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Hip-Pg-Yv5"/>
+                    <constraint firstItem="jt5-TP-oSG" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="V24-A8-NlB"/>
+                    <constraint firstItem="EtV-HL-5uT" firstAttribute="centerY" secondItem="jt5-TP-oSG" secondAttribute="centerY" id="XhY-d0-nOL"/>
+                    <constraint firstAttribute="bottom" secondItem="mW0-T4-wBB" secondAttribute="bottom" id="hsP-4g-Jbh"/>
+                    <constraint firstItem="EtV-HL-5uT" firstAttribute="leading" secondItem="jt5-TP-oSG" secondAttribute="trailing" constant="8" id="lXx-We-7vm"/>
+                    <constraint firstItem="lMW-oq-O1C" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="EtV-HL-5uT" secondAttribute="trailing" constant="8" id="ouV-3U-FzF"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="HeadImage" destination="jt5-TP-oSG" id="31y-0v-k6L"/>
+                <outlet property="NameLab" destination="EtV-HL-5uT" id="24Y-49-Z1H"/>
+                <outlet property="WorkImage" destination="lMW-oq-O1C" id="6Mm-O7-2vJ"/>
+            </connections>
+            <point key="canvasLocation" x="131.8840579710145" y="99.776785714285708"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="工作小矢量图" width="15.5" height="13.5"/>
+    </resources>
+</document>

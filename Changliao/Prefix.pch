@@ -1,0 +1,48 @@
+//
+//  Prefix.pch
+//  boxin
+//
+//  Created by guduzhonglao on 6/9/19.
+//  Copyright © 2019 guduzhonglao. All rights reserved.
+//
+#define ApiHead1er @"https://app.2000rmb.com/im/api/"
+//#define ApiHead1er @"https://im.nongpj.cn/im/api/"
+//#define ApiHead1er @"http://im.intermedhk.com/xinim/api/"
+#ifndef Prefix_pch
+#define Prefix_pch
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+
+
+#define DEMO_CALL 1
+
+#if DEMO_CALL == 1
+
+#import <Hyphenate/Hyphenate.h>
+#else
+#import <HyphenateLite/HyphenateLite.h>
+#endif
+#import "AFNetworking.h"
+#import "MJExtension.h"
+#import "EaseUI.h"
+#import "MBProgressHUD.h"
+#import "SVProgressHUD.h"
+#import "Masonry.h"
+#import <YBImageBrowser/YBImageBrowser.h>
+//new UI
+
+
+#endif
+#endif
+//#import "Chaangliao-Swift.h"
+#endif /* Prefix_pch */

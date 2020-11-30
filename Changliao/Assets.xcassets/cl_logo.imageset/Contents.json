@@ -1,0 +1,116 @@
+{
+  "images" : [
+    {
+      "idiom" : "universal",
+      "filename" : "编组 4.png",
+      "scale" : "1x"
+    },
+    {
+      "locale" : "en",
+      "idiom" : "universal",
+      "filename" : "编组 4-4.png",
+      "scale" : "1x"
+    },
+    {
+      "locale" : "en-AU",
+      "idiom" : "universal",
+      "filename" : "编组 4-3.png",
+      "scale" : "1x"
+    },
+    {
+      "locale" : "en-GB",
+      "idiom" : "universal",
+      "filename" : "编组 4-2.png",
+      "scale" : "1x"
+    },
+    {
+      "locale" : "zh-Hans",
+      "idiom" : "universal",
+      "filename" : "编组 4-1.png",
+      "scale" : "1x"
+    },
+    {
+      "locale" : "zh-Hant",
+      "idiom" : "universal",
+      "filename" : "编组 5.png",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "编组 4@2x.png",
+      "scale" : "2x"
+    },
+    {
+      "locale" : "en",
+      "idiom" : "universal",
+      "filename" : "编组 4@2x-4.png",
+      "scale" : "2x"
+    },
+    {
+      "locale" : "en-AU",
+      "idiom" : "universal",
+      "filename" : "编组 4@2x-3.png",
+      "scale" : "2x"
+    },
+    {
+      "locale" : "en-GB",
+      "idiom" : "universal",
+      "filename" : "编组 4@2x-2.png",
+      "scale" : "2x"
+    },
+    {
+      "locale" : "zh-Hans",
+      "idiom" : "universal",
+      "filename" : "编组 4@2x-1.png",
+      "scale" : "2x"
+    },
+    {
+      "locale" : "zh-Hant",
+      "idiom" : "universal",
+      "filename" : "编组 5@2x.png",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "编组 4@3x.png",
+      "scale" : "3x"
+    },
+    {
+      "locale" : "en",
+      "idiom" : "universal",
+      "filename" : "编组 4@3x-4.png",
+      "scale" : "3x"
+    },
+    {
+      "locale" : "en-AU",
+      "idiom" : "universal",
+      "filename" : "编组 4@3x-3.png",
+      "scale" : "3x"
+    },
+    {
+      "locale" : "en-GB",
+      "idiom" : "universal",
+      "filename" : "编组 4@3x-2.png",
+      "scale" : "3x"
+    },
+    {
+      "locale" : "zh-Hans",
+      "idiom" : "universal",
+      "filename" : "编组 4@3x-1.png",
+      "scale" : "3x"
+    },
+    {
+      "locale" : "zh-Hant",
+      "idiom" : "universal",
+      "filename" : "编组 5@3x.png",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  },
+  "properties" : {
+    "localizable" : true
+  }
+}
