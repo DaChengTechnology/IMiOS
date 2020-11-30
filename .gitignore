@@ -1,0 +1,7 @@
+
+*.xcuserstate
+boxin.xcworkspace/xcuserdata/sea.xcuserdatad/UserInterfaceState.xcuserstate
+boxin.xcworkspace/xcuserdata/sea.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist
+.DS_Store
+Pods/*
+*.framework
